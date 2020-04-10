@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "Acordos de Leniencia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <h2>
+        <center>
+            Lista de Acordos Leniencia
+        </center> 
+    </h2>
+    
+        <canvas id="myChart" style="height:content-box;width: content-box;"></canvas>
+        <script>
+            var ctx = document.getElementById('myChart');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                    datasets: [{
+                        label: '# of Votes',
+                        data: [12, 19, 3, 5, 2, 3],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+        </script>
+<!--
+
+
+<table class="table">
+    <caption><h2><center>Lista de Acordos de Leniencia</center></h2></caption>
+    <thead>
+        <tr>
+            <th scope="col">Empresa</th>
+            <th scope="col">Início Acordo</th>
+            <th scope="col">Fim Acordo</th>
+            <th scope="col">Status Acordo</th>
+            <th scope="col">Orgão Responsável</th>
+            <th scope="col">CNPJ</th>
+            <th scope="col">Razão Social</th>
+            <th scope="col">UF Empresa</th>
+            <th scope="col">Quantidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var acordos in ViewBag.ListaAcordos)
+            {
+                <tr>
+                    <th scope="row">@acordos.nomeEmpresa</th>
+                    <td>@acordos.dataInicioAcordo</td>
+                    <td>@acordos.dataFimAcordo</td>
+                    <td>@acordos.situacaoAcordo</td>
+                    <td>@acordos.orgaoResponsavel</td>
+                    <td>@acordos.cnpj</td>
+                    <td>@acordos.razaoSocial</td>
+                    <td>@acordos.ufEmpresa</td>
+                    <td>@acordos.quantidade</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+    -->

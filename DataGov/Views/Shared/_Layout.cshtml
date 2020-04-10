@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="menu-status">API - Executando<label class="status-ok"></label></div>
+        <div class="menu-status">Banco de Dados - Parado<label class="status-atencao"></label></div>
+        <div class="menu-status">Integração - Erro<label class="status-erro"></label></div>
+        <div class="espaco-menus"></div>
+        <a href="/"><div class="border0 sidebar-links menu-style">Dashboard</div></a>
+        <a href="/AcordosLeniencia"><div class="border0 sidebar-links menu-style">Acordos Leniencia</div></a>
+        <a href="/AcordosLeniencia"><div class="border0 sidebar-links menu-style">Gastos STF</div></a>
+        <a href="/AcordosLeniencia"><div class="border0 sidebar-links menu-style">Gastos Judiciário</div></a>
+        <a href="/AcordosLeniencia"><div class="border0 sidebar-links menu-style">Controle Epidemiologico</div></a>
+        <a href="/AcordosLeniencia"><div class="border0 sidebar-links menu-style">Controle Estoque</div></a>
+    </div>
+    <div class="content corpo">
+        @RenderBody()
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

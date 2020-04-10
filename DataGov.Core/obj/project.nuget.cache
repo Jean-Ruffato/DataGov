@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BhvAMlNUNpEk365PUPptNg3wD0/oCFYrD3a5U3bV/vzEvlukuVSFb9yU1TJrjSI849Wm9d1RNVFABB6FV4cPYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jean Ruffato\\Documents\\Projetos\\DataGov\\DataGov.Core\\DataGov.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jean Ruffato\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jean Ruffato\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jean Ruffato\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

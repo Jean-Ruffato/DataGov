@@ -1,0 +1,9 @@
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\bin\Debug\netstandard2.0\DataGov.Core.deps.json
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\bin\Debug\netstandard2.0\DataGov.Core.dll
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\bin\Debug\netstandard2.0\DataGov.Core.pdb
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\obj\Debug\netstandard2.0\DataGov.Core.csproj.CoreCompileInputs.cache
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\obj\Debug\netstandard2.0\DataGov.Core.AssemblyInfoInputs.cache
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\obj\Debug\netstandard2.0\DataGov.Core.AssemblyInfo.cs
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\obj\Debug\netstandard2.0\DataGov.Core.dll
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\obj\Debug\netstandard2.0\DataGov.Core.pdb
+C:\Users\Jean Ruffato\Documents\Projetos\DataGov\DataGov.Core\obj\Debug\netstandard2.0\DataGov.Core.csprojAssemblyReference.cache
